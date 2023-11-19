@@ -1,0 +1,12 @@
+{
+  "name": "w6ch5-front",
+  "version": "1.0.0",
+  "description": "## API REST Things I already know / Lo que queráis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
