@@ -1,5 +1,9 @@
-import './app.scss';
+import { List } from '../tripList/tripList';
 
 export function App() {
-  return <></>;
+  return (
+    <>
+      <List></List>
+    </>
+  );
 }
