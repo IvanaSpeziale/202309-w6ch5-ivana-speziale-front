@@ -1,0 +1,31 @@
+header {
+  height: 14vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem;
+}
+header img {
+  position: relative;
+  left: 5vh;
+  top: 10px;
+}
+
+h1 {
+  position: absolute;
+  z-index: 0;
+  color: transparent;
+  top: -1000000000000000000000000000000000000px;
+}
+
+@media (width < 480px) {
+  .container-header-img {
+    height: 50px;
+    width: 140px;
+    top: 10px;
+  }
+  header img {
+    position: relative;
+    left: 5vh;
+  }
+}/*# sourceMappingURL=header.css.map */

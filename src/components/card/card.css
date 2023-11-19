@@ -1,0 +1,32 @@
+.card-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.card {
+  display: block;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+@media (max-width: 500px) {
+  .card-container {
+    display: block;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=card.css.map */

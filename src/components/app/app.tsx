@@ -1,5 +1,12 @@
-import './app.scss';
+/* import './app.scss'; */
 
+import { List } from '../tripList/tripList';
+/* import { Header } from '../header/header';
+ */
 export function App() {
-  return <></>;
+  return (
+    <>
+      <List></List>
+    </>
+  );
 }
